@@ -1,0 +1,62 @@
+.ball{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #3300FF;
+
+	border-radius: 25px;
+	box-shadow: 0 0 5px 2px;
+
+	top: 10px;
+	transition-duration: 1s;
+
+
+}
+
+#ball1{
+	left: 50px;
+}
+
+#ball2{
+	left: 250px;
+}
+
+#ball3{
+	left: 450px;
+	transition-duration: 0.5s;
+}
+
+#ball4{
+	top: 480px;
+	left: 50px;
+	transition-duration: 1s;
+}
+
+#line{
+	position: absolute;
+	width: 200px;
+	background: #FF0000;
+	height: 3px;
+	left: 180px;
+	top: 300px;
+}
+
+#lineLong{
+	position: absolute;
+	width: 470px;
+	background: #FF0000;
+	height: 3px;
+	left: 50px;
+	top: 410px;
+}
+
+.main{
+	position: relative;
+	height: 530px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.balls li{
+	display: inline-block;
+}

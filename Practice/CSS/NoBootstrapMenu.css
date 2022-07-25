@@ -1,0 +1,110 @@
+
+
+.NoBootstrapMenuHead{
+	height: 50px;
+	width: 95%;
+	margin: 15px auto;
+	position: relative;
+}
+
+.NoBootstrapMenuLeft{
+	width: 30%;
+	margin: 15px auto;
+	margin-left: 20px;
+	float: left;
+
+
+}
+
+.NoBootstrapMenuRight{
+	width: 60%;
+	margin: 15px auto;
+	margin-right: 20px;
+	float: right;
+
+}
+
+.NoBootstrapMenuDown{
+	height: 70px;
+	width: 95%;
+	margin: 15px auto;
+	clear:  both;
+	position: relative;
+
+
+}
+
+.NoBootstrapMenuInside{
+	height: 35px;
+	width: 30%;
+	position: absolute;
+	top: 10px;
+	right: 5%;
+	bottom: 10px;
+	padding: 5px 5px;
+	border:  solid black 2px;
+}
+
+
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    position: relative;
+    margin: 10px auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+header ul ul{
+    display: block;
+}
+
+li{
+	    list-style-type: none;
+
+}
+
+.red {
+	background: red;
+}
+
+.green {
+	background: green;
+}
+
+.purple {
+	background: purple;
+}
+
+.blue {
+	background: blue;
+}
+
+p{
+	text-indent: 40px
+}
+
+img {
+	margin: 15px 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .hidemobile {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+footer h1{
+	margin: 10px;
+}
+
+footer p{
+	margin: 10px auto;
+}

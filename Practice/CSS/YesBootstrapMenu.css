@@ -1,0 +1,48 @@
+
+
+.head_row{
+	width: 90%;
+	margin: 15px auto;
+}
+
+.hiden_show:hover .hiden_all{
+display: block;
+}
+
+
+.hiden_all{
+display: none;
+}
+
+
+.head_inf {
+  border: black solid 3px;
+  text-align: center;
+}
+
+header{
+margin-bottom: 20px;
+background: #171717;
+}
+
+div {
+font-size: 20px;
+}
+
+html {
+background: #171717;
+color: #333333;
+}
+
+A {
+    color: Black; /* Цвет ссылок */
+   }
+
+A:visited {
+    color: #333333; /* Цвет посещенных ссылок */
+   }
+
+A:hover{
+    border: red 1px solid;
+}
+

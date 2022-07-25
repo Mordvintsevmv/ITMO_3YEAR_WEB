@@ -1,0 +1,9 @@
+.main{
+	height: 350px;
+	border: dotted black 2px;
+	margin-top: 10px;
+}
+
+.main_hard{
+	cursor: pointer;
+}

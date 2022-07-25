@@ -1,0 +1,21 @@
+
+.pages{
+	float:  left;
+	width: 25%;
+	margin-left: 50px;s
+}
+
+
+
+.main{
+	float: right;
+	width: 60%;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 200px;
+	background: white;
+}
+
+.head_inf{
+	
+}

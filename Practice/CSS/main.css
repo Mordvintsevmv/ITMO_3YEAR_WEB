@@ -1,0 +1,65 @@
+
+
+.pages{
+    float:  left;
+    width: 25%;
+    margin-left: 50px;s
+}
+
+
+
+.main{
+    float: right;
+    width: 60%;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: white;
+}
+
+.head_inf{
+    
+}
+
+.hiden_show:hover .hiden_all{
+display: block;
+}
+
+
+.hiden_all{
+display: none;
+}
+
+
+.head_inf {
+    height: 50px;
+  border: black solid 3px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+header{
+margin-bottom: 20px;
+}
+
+div {
+font-size: 20px;
+background: #FAFAFA;
+}
+
+html {
+background: #171717;
+color: #333333;
+}
+
+A {
+    color: Black; /* Цвет ссылок */
+   }
+
+A:visited {
+    color: #333333; /* Цвет посещенных ссылок */
+   }
+
+A:hover{
+    border: red 1px solid;
+}

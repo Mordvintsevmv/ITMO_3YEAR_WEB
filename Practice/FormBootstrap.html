@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/FormBootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </head>
+  
+  <header>
+
+    <div class = "head_inf">
+      <a href="index.html">Начальная страница</a>
+      
+    </div>
+
+  </header>
+  
+  <body>
+    
+   <div class="pages">
+    <ul class="page_link">
+      
+        <h1>Меню сайта:</h1>
+
+        <li>
+          <a href="first.html">Моя первая страничка на курсе</a>
+        </li>
+
+        </br>
+
+        <li>
+          <a href="BootstrapTest.html">Проверка работы Bootstarp</a>
+        </li>
+
+        </br>
+
+        <li>
+          <div class="hiden_show">
+
+          <a>Практика меню</a>
+
+          <ul class="hiden_all">
+
+            <li>
+              <a href="YesBootstrapMenu.html">С Bootstrap</a>
+            </li>
+
+            <li>
+              <a href="NoBootstrapMenu.html">Без Bootstarp</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        </li>
+<br>
+
+
+          <li><div class="hiden_show">
+
+          <a>Java 1</a>
+
+          <ul class="hiden_all">
+
+            <li>
+              <a href="JavaFirst.html">Первый JavaScript (Д/З)</a>
+            </li>
+
+            <li>
+              <a href="JavaOnLesson.html">JavaScript (Д/З 2)</a>
+            </li>
+
+            <li>
+              <a href="JavaRotate.html">Поворот изображения</a>
+            </li>
+
+          </ul>
+
+        </div></li>
+
+<br>
+
+        <li><div class="hiden_show">
+
+          <a>Java 2</a>
+
+          <ul class="hiden_all">
+
+            <li>
+              <a href="Ball.html">Шарики прыгают</a>
+            </li>
+
+            <li>
+              <a href="Draw.html">Рисование</a>
+            </li>
+
+
+          </ul>
+
+        </div></li>
+
+
+<br>
+
+
+          <li><div class="hiden_show">
+
+          <a>Формы</a>
+
+          <ul class="hiden_all">
+
+            <li>
+              <a href="Form.html">Обычные формы</a>
+            </li>
+
+            <li>
+              <a href="FormBootstrap.html">Формы на Bootstrap</a>
+            </li>
+            
+          </ul>
+
+        </div></li>
+
+    </ul>
+  </div>
+
+  <div class="main">
+      
+    <h1>Поделитесь счатьем c Bootstrap!</h1>
+    <h3 id="log_1"></h3>
+    <h3 id="log_2"></h3>
+    <h3 id="log_3"></h3>
+
+    <form id="form">
+      <fieldset>
+        <legend>Контактная информация</legend>
+        <div class = "row">
+
+          <div class="col-2">
+            <label>Имя<br><input type="text" name="name" id="name" onkeyup="check_name(); check_all();" onfocus="check_name(); check_all();" placeholder="Ваше Имя" required></label>
+          </div>
+
+          <div class="col-10">
+            <label>E-mail<br><input type="email" name="email" id="email" onkeyup="check_email(); check_all();" placeholder="Ваш E-Mail" required></label>
+          </div>
+
+        </div>
+
+        <label>Пароль<br><input type="password" name="password" id="password" onkeyup="check_pass(); check_all();" placeholder="Пароль" required></label>
+        <label>Подтвердить пароль<br><input type="password" name="confirm_password" id="confirm_password" onkeyup="check_pass(); check_all();" placeholder="Пароль ещё раз" required></label>
+        <label>Сообщение<br><textarea name="text_area" id="text_area" onfocus="check_all();" placeholder="Ваше мнение" rows=10, cols=90></textarea></label>
+        <button type="submit" id="submit">Отправить данные в ФСБ</button>
+        </fieldset>
+    </form>
+
+
+  </div>
+
+
+  </body>
+<script src="js/FormBootstrap.js"></script>
+</html>
+
